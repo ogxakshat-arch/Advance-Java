@@ -1,129 +1,121 @@
 # 🎓 Advanced Java 
+ 
+# 🛍️ ShopSphere — Advanced Java Projects
 
-Welcome to my **Advanced Java** repository! This repository contains academic projects and practical implementations developed to strengthen my understanding of Java programming, enterprise application development, database connectivity, and client-server communication.
+Welcome to **ShopSphere**, my Advanced Java project repository. This repository contains Java practicals and academic projects created to strengthen my understanding of Java programming, database connectivity, web application development, and client-server communication.
 
-## 🚀 Featured Project: CareerBridge
+## 🚀 Featured Project: ShopSphere
 
-**CareerBridge — Job and Internship Management Portal**
+**ShopSphere** is the featured project in this repository. Its name represents an online shopping experience. The exact features, technology configuration, and setup steps depend on the implementation available in the project source code.
 
-CareerBridge is a full-stack Java web application developed as an academic project to fulfill the Advanced Java / Java Enterprise curriculum requirements of Rajasthan Technical University (RTU).
+### ✨ Project Overview
 
-The platform focuses on job and internship management, connecting relevant users through a centralized portal.
+- Main project: **ShopSphere**
+- Repository focus: Advanced Java and Java practical implementations
+- Intended learning areas: Java application development, database connectivity, web technologies, and networking concepts
 
-### 🛠️ Technologies Used
+> **Note:** Update this section with the actual ShopSphere features (for example, product listing, cart, login, orders, or admin functions) once they are implemented in the source code.
 
-- Java
-- Jakarta EE / Java Enterprise
-- Servlets
-- Apache Tomcat
-- MySQL
-- HTML
-- CSS
-- JavaScript
-- Maven
-- JUnit
-
-### ✨ Key Areas
-
-- Job and internship management
-- User roles and role-based functionality
-- Database integration using MySQL
-- Web application development using Java Servlets
-- Application testing and validation
-
-## 📂 Other Projects
+## 📂 Other Projects and Practicals
 
 ### 1. Calculator
-A Java-based calculator application for performing arithmetic operations.
+A Java calculator project for practising arithmetic operations and basic programming logic.
 
-### 2. JDBC Connectivity
-Demonstrates database connectivity between Java applications and a database using JDBC.
+### 2. ClientServer
+A project folder for practising communication between client and server applications using Java networking concepts.
 
-### 3. RMI (Remote Method Invocation)
-Demonstrates communication between distributed Java applications using Java RMI.
+### 3. JDBC
+Java Database Connectivity practicals demonstrating how a Java application can connect to and work with a database.
 
-### 4. Student Registration Form
-A Java-based application for handling student registration and related information.
+### 4. LAB-7-servlet
+A Servlet-based lab project for practising server-side Java web development. Refer to the source files for the specific experiment and functionality.
 
-### 5. Client-Server Communication
-Demonstrates communication between client and server applications using Java networking concepts.
+### 5. RMI
+A Java Remote Method Invocation (RMI) practical for learning how Java objects can communicate across applications or JVMs.
 
-## 📁 Repository Structure
+### 6. Servlet-lab
+Servlet practicals for learning request handling and server-side web application concepts.
+
+### 7. Student Registration
+A student registration project for practising form handling and managing student-related information. Database and CRUD functionality depend on the current implementation.
+
+## 🗂️ Repository Structure
 
 ```text
-advanceJava/
-│
-├── AdvanceJavaProject/
-│   └── CareerBridge Job and Internship Portal
-│
-├── Calculator/
-│   └── Calculator Application
-│
-├── JDBC/
-│   └── JDBC Connectivity Project
-│
-├── RMI/
-│   └── Remote Method Invocation Project
-│
-├── StudentRegistrationform/
-│   └── Student Registration Application
-│
-├── clientServer/
-│   └── Client-Server Communication
-│
-├── .gitignore
-└── README.md
+ShopSphere/
+├── ADV-JAVA-PROJECT/   # Main Advanced Java project (ShopSphere)
+├── Calculator/         # Calculator practical
+├── ClientServer/       # Client-server communication practical
+├── JDBC/               # Database connectivity practicals
+├── LAB-7-servlet/      # Servlet lab work
+├── RMI/                # Remote Method Invocation practical
+├── Servlet-lab/        # Servlet practicals
+├── Student Registration/ # Student registration project
+└── README.md            # Project documentation
 ```
 
-*Note: The folder descriptions above are for guidance; actual source files may differ.*
+> Folder descriptions are based on the current repository folder names. The actual implementation may differ. Keep the folder names in this diagram aligned with the repository if you rename or reorganise them.
 
-## ⚙️ Requirements
+## 🛠️ Technologies
+
+The repository is focused on Advanced Java. Depending on the individual project, you may need:
 
 - Java Development Kit (JDK)
-- Apache Tomcat
-- MySQL Server
-- Maven (for Maven-based projects)
-- VS Code, IntelliJ IDEA, or Eclipse
+- Java Servlets and a compatible servlet container (for Servlet projects)
+- JDBC-compatible database driver and database server (for JDBC/database projects)
+- Java RMI (for the RMI practical)
+- An IDE such as IntelliJ IDEA, Eclipse, or Visual Studio Code
 
-## ▶️ How to Run CareerBridge
+Only list a specific JDK version, database, server, framework, or build tool here after confirming it is used by the source code.
+
+## ⚙️ Prerequisites
+
+Before running a project, make sure the tools required by that project are installed and configured:
+
+1. Install a compatible JDK.
+2. Open the required project folder in your Java IDE.
+3. For Servlet projects, configure a compatible servlet container such as Apache Tomcat if the project requires one.
+4. For JDBC projects, configure the database, JDBC driver, and connection settings if required.
+5. For RMI projects, follow the project's RMI setup and execution instructions.
+
+## ▶️ How to Run
+
+Because this repository contains multiple independent practicals, the exact run procedure may differ for each folder.
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/kritikaagarwal1005/advanceJava.git
+   git clone https://github.com/ogxakshat-arch/Advance-Java.git
    ```
 
-2. Open the `AdvanceJavaProject` folder in your preferred IDE.
+2. Open the cloned repository in your preferred Java IDE.
+3. Open the folder for the project you want to run.
+4. Check its source files and any project-specific instructions.
+5. Configure the required JDK, dependencies, server, or database.
+6. Run the project's main class or deploy the web application according to its configuration.
 
-3. Configure the JDK, Maven dependencies, and Apache Tomcat.
-
-4. Configure MySQL database credentials according to the project configuration.
-
-5. Set up the required database and tables.
-
-6. Build the project and deploy it to Tomcat according to its configuration.
-
-7. Open the application using the local URL configured for your Tomcat deployment.
-
-**Note:** Follow the project's own README and configuration files for the exact database setup, deployment steps, and URL.
+> **Important:** The clone URL above assumes the repository is named `Advance-Java`. If the repository URL or name changes, replace it with the actual GitHub clone URL. Database credentials, table names, deployment paths, and application URLs must come from the project's configuration; do not commit passwords or API keys to GitHub.
 
 ## 🎯 Learning Objectives
 
-- Understand Advanced Java and Java Enterprise concepts.
-- Develop web applications using Java Servlets.
-- Connect Java applications with MySQL databases.
-- Implement client-server communication and Java RMI.
-- Gain practical experience in application development and testing.
+- Practise core and Advanced Java concepts.
+- Understand Java web development with Servlets.
+- Learn how Java applications connect to databases using JDBC.
+- Explore client-server communication and Java RMI.
+- Build confidence in debugging, running, and documenting Java projects.
 
-## 👩‍💻 Author
+## 👨‍💻 Author
 
 **Akshat Parashar**
 
-GitHub: [@Akshat parashar](https://github.com/ogxakshat-arch)
+GitHub: [@ogxakshat-arch](https://github.com/ogxakshat-arch)
 
-## ⭐ Acknowledgement
+## 🙏 Acknowledgement
 
-This repository represents my practical learning and academic work in Advanced Java and Java Enterprise application development.
+This repository represents my academic practice and learning in Advanced Java. Each folder contains work intended to build practical programming skills and improve understanding of Java application development.
 
-If you find these projects useful, feel free to explore the repository.
+If you find the projects useful, feel free to explore the repository.
 
+---
+
+⭐ **ShopSphere — Learning, Building, and Growing with Java
